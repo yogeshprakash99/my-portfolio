@@ -1,14 +1,32 @@
 .header-cover {
   color: black;
   background-color: lightgray;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
 }
 body,
 html {
   height: 100%;
   font-family: "Source Code Pro", monospace;
+
   /* font-variant: small-caps; */
 }
+.profile img {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  border: 3px solid red;
+}
 
+/* #content {
+  background: linear-gradient(to right, #003973, #e5e5be);
+}
+
+#skill-container {
+  background: linear-gradient(to right, #314755, #26a0da);
+} */
 .bgimg {
   background-position: center;
   background-size: cover;
@@ -22,4 +40,25 @@ html {
 
 .menu {
   display: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 4px;
+  margin: auto;
+  aspect-ratio: 100 / 29;
+}
+table,
+th,
+td {
+  border: 1px solid #cecfd5;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  aspect-ratio: 100 / 29;
+}
+th,
+td {
+  padding: 10px 15px;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  aspect-ratio: 100 / 29;
 }
