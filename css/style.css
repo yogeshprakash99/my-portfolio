@@ -1,0 +1,25 @@
+.header-cover {
+  color: black;
+  background-color: lightgray;
+}
+body,
+html {
+  height: 100%;
+  font-family: "Source Code Pro", monospace;
+  /* font-variant: small-caps; */
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../cover.jpeg");
+  min-height: 75%;
+}
+
+.resume {
+  text-align: center;
+}
+
+.menu {
+  display: none;
+}
