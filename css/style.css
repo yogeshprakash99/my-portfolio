@@ -21,12 +21,12 @@ html {
 }
 
 #content {
-  background: linear-gradient(to right, #003973, #e5e5be);
+  background: linear-gradient(to right, #c33764, #1d2671);
 }
-
+/* 
 #skill-container {
   background: linear-gradient(to right, #314755, #26a0da);
-}
+} */
 .bgimg {
   background-position: center;
   background-size: cover;
